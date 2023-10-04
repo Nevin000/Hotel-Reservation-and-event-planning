@@ -1,0 +1,134 @@
+.logo{
+    width:600px;
+    height:150px;
+
+}
+
+body{
+    background-image: url("imageL/background.jpg");
+    background-size: cover;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+ 
+   
+}
+
+#A{
+    background-color:#898c8f77;
+    backdrop-filter: blur(2px);
+    border-radius: 12px;
+    padding: 30px;
+    width: 700px;
+    height: 750px;
+    box-shadow: 0 5px 9px 0 rgba(146, 138, 138, 0.2), 0 10px 25px 0 rgba(22, 21, 21, 0.19);
+}
+
+#a{
+    width: 530px;
+    height: 100px;
+    border-radius: 12px; 
+    background-color:rgba(139, 138, 134, 0.075);
+    padding: 10px;
+    box-shadow: 0 5px 9px 0 rgba(22, 21, 21, 0.2), 0 10px 25px 0 rgba(22, 21, 21, 0.19);
+    margin-bottom: 20px;
+}
+
+
+#ab{
+    margin-left: 49px;
+}
+
+
+#a1{
+    margin-left: 51px;
+   
+}
+
+#a2{
+    margin-left: 49px;   
+}
+
+#a3{
+    
+    margin-left: 22px;
+}
+
+#a4{
+   
+    margin-left: 25px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+.btn{
+    align-self: center;
+    justify-content: center;
+    display:flex;
+  }
+  
+  
+  
+  button{
+    box-shadow: 0 5px 9px 0 rgba(22, 21, 21, 0.2), 0 10px 25px 0 rgba(22, 21, 21, 0.19);
+    border-radius: 12px;
+    background-color: #bdba22ce;
+    padding: 10px 10px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  #ab:hover,#a1:hover,#a2:hover,#a3:hover,#a4:hover,#a:hover{
+    border-color:#dfd221; 
+    background-color: #f7e05c00;
+   
+  }
+
+  a:hover{
+    color: #f0e54f;
+  }
+
+  
+  button:hover{
+    border-color:#beb136; 
+    background-color: #f3dc58ea;
+  }
+  
+  input{
+    color: #0a0a0a;
+  }
+  
+  ::placeholder{
+    color: rgba(32, 33, 34, 0.623);
+  }
+
+  label,p{
+    color: #e9e8e3;
+  }
+
+  h2{
+    color: #f0c828;
+  }
+
+
+  a{
+    color: #aa8610;
+  }
+
+  #ab,#a1,#a2,#a3,#a4{
+    width: 400px;
+    border-radius: 12px; 
+    height: 25px;
+    background-color:rgba(134, 133, 129, 0.267);
+    padding: 10px;
+    box-shadow: 0 5px 9px 0 rgba(22, 21, 21, 0.2), 0 10px 25px 0 rgba(22, 21, 21, 0.19);
+    margin-bottom: 20px;
+  }

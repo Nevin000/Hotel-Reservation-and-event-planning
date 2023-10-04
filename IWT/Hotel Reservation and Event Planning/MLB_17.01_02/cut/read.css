@@ -1,0 +1,39 @@
+.container{
+    margin-left: 370px;
+}
+.table, th, td{
+    border: 3px solid #004186;
+}
+th{
+    padding: 2px 10px 2px 10px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+td{
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.btn{
+    background-color: darkblue;
+    width: 100px;
+    height: 30px;
+    color: white;
+    margin-left: 640px;
+    text-decoration: none;
+}
+.btn a{
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.topic{
+    margin-left: 600px;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-top: 50px;
+}
